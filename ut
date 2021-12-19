@@ -41,6 +41,8 @@
 				wait(2)
 				local plr = game:GetService('Players').LocalPlayer
 				plr:Kick('KICKED TO AVOID ADMIN-BAN (Admin joined) =)')
-
-			end
-		end
+	        end
+	    end
+	end)
+	end)
+end
