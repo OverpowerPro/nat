@@ -1,18 +1,5 @@
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Anti-Ban";
-		Text = "You Are Safe Now Bbg ;)";
+game.StarterGui:SetCore("SendNotification", {
+		Title = "https://discord.gg/xCPkF86fRm";
+		Text = "Out Dated Join ^ for new";
 		Duration = 20;
 	})
-
-	local annoying = {"JokeTheFool", "Sherosama", "dtbbullet", "AStrongMuscle", "XavierWild", "NikoSenpai", "UziGarage", "iumu", "Benoxa", "Luutyy", "clubstar54", "givkitheth", "DrxcoBaby" , "DrxcoRxsh" } -- you can add more players by doing {"Player1", "Player2"}
-	
-	
-	game.Players.PlayerAdded:Connect(function(plr)
-		for i, v in pairs(annoying) do
-			if plr.Name == v then
-				local loc = game.Players.LocalPlayer
-				loc:Kick("Kicked an admin has joined Don't worry bbg ;)")
-			end
-		end
-	end)
-end
